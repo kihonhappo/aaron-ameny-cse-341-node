@@ -6,7 +6,7 @@ const app = express();
 
 app.set('view engine', 'pug');
 app.set('views', 'views');
-
+// Test
 const bodyParser = require('body-parser');
 const path = require('path');
 const rootDir = require('./util/path');
